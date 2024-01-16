@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  font-size: 3.6rem;
+}
+
+.calc-container {
+  width: 40rem;
+  padding: 2rem;
+}
+.calc-display {
+  text-align: right;
+}
+
+.calc-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
+.calc-button:last-child {
+  grid-column: 4/4;
+  grid-row: 2/6;
+}
