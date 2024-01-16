@@ -22,6 +22,7 @@ html {
   padding: 2rem;
 }
 .calc-display {
+  padding: 0 4rem;
   text-align: right;
 }
 
